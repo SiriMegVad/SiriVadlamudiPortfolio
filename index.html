@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <!-- <link rel="stylesheet" href="assets/css/swiper-bundle.min.css"> -->
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <title>Siri Vadlamudi - Portfolio</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Siri
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="ri-home-5-line"></i> Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="ri-trophy-line"></i> Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="ri-book-open-line"></i> Qualification
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#achievements" class="nav__link">
+                            <i class="ri-medal-line"></i> Achievements
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="ri-image-line"></i> Projects
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-chat-3-line"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__buttons">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-4-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME  ====================-->
+        <section class="home section" id="home">
+        <div class="home-header-container container section__border">
+            <div class="home-header-left animate-on-scroll " data-animate="animate__backInLeft"> 
+            <div class="home-header-bio">
+                <h3>BIOGRAPHY</h3>
+                <p>
+                I am a highly motivated student and innovator dedicated to solving global challenges at the intersection of Technology, Management, and Environmental Sustainability. As the founder of the Youth Gamification Club and a competitive math/policy student, I focus on applying AI and gamification to create scalable solutions with real-world social impact.
+                </p>
+            </div>
+            <div class="home-header-contact">
+                <h4>CONTACT</h4>
+                <p>
+                <a href="mailto:sirimeghanavadlamudi13@gmail.com">sirimeghanavadlamudi13@gmail.com</a>
+                <a href="tel:+918639765689">+91 86397 65689</a>
+                </p>
+            </div>
+            </div>
+            <div class="home-header-center animate-on-scroll" data-animate="animate__backInDown">
+            <img src="photo.webp" alt="Siri Vadlamudi" class="home-header-profile">
+            <h1 class="home-header-title">
+                Hi, I'm Siri Vadlamudi<br>
+                <span>Student Innovator & Tech Leader</span>
+            </h1>
+            <div class="home-header-social">
+                <a href="https://www.linkedin.com/in/siri-vadlamudi-583378316/?originalSubdomain=in" target="_blank"><i class="ri-linkedin-box-line"></i></a>
+                <a href="https://www.instagram.com/youth_gamification_club/" target="_blank"><i class="ri-instagram-line"></i></a>
+                <a href="mailto:sirimeghanavadlamudi13@gmail.com" target="_blank"><i class="ri-mail-line"></i></a>
+            </div>
+            </div>
+            <div class="home-header-right animate-on-scroll" data-animate="animate__backInRight">
+            <div class="home-header-focus">
+                <h4>FOCUS AREAS</h4>
+                <ul>
+                <li>AI/ML for Social Impact</li>
+                <li>Sustainable Systems Engineering</li>
+                <li>Environmental Policy</li>
+                </ul>
+            </div>
+            <div class="home-header-school">
+                <h4>INSTITUTION</h4>
+                <p>Global Indian International School</p>
+            </div>
+            <div class="home-header-projects">
+                <h4>COMPLETED PROJECTS</h4>
+                <p>08+</p>
+            </div>
+            </div>
+        </div>
+        </section>
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical skills</span>
+
+            <div class="skills__container container grid section__border">
+                <!--==================== SKILLS 1 ====================-->
+                <div class="skills__content animate-on-scroll" data-animate="animate__zoomInLeft">
+                    <h3 class="skills__title">
+                        <i class="ri-code-s-slash-line"></i> Technical Skills
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/python.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Python</h3>
+                            <!-- <span class="skills__subtitle">Advanced</span> -->
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/java.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Java</h3>
+                            <!-- <span class="skills__subtitle">Advanced</span> -->
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/html-1.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">HTML/CSS/JS</h3>
+                            <!-- <span class="skills__subtitle">Intermediate</span> -->
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/ai&ml.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">AI/ML</h3>
+                            <!-- <span class="skills__subtitle">Advanced</span> -->
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/figma-1.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">UI/UX Design</h3>
+                            <!-- <span class="skills__subtitle">Intermediate</span> -->
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/data-analysis.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Data Analysis</h3>
+                            <!-- <span class="skills__subtitle">Advanced</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SKILLS 2 ====================-->
+                <div class="skills__content animate-on-scroll" data-animate="animate__zoomInRight">
+                    <h3 class="skills__title">
+                        <i class="ri-team-line"></i> Leadership & Soft Skills
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/leadership.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Leadership</h3>
+                            <!-- <span class="skills__subtitle">Expert</span> -->
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/communication.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Communication</h3>
+                            <!-- <span class="skills__subtitle">Expert</span> -->
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/research.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Research</h3>
+                            <!-- <span class="skills__subtitle">Advanced</span> -->
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/project-management.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Project Mgmt</h3>
+                            <!-- <span class="skills__subtitle">Advanced</span> -->
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/policy-analyzer.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Policy Analysis</h3>
+                            <!-- <span class="skills__subtitle">Advanced</span> -->
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/public-speaking.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Public Speaking</h3>
+                            <!-- <span class="skills__subtitle">Expert</span> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">Education & achievements</span>
+
+            <div class="qualification__container section__border">
+                <div class="qualification__content animate-on-scroll" data-animate="animate__fadeInDown">
+                    <h3 class="qualification__title">
+                        <i class="ri-pencil-ruler-2-line"></i> Education
+                    </h3>
+                        <div>
+                            <h3 class="qualification__name">
+                                A-Levels (CAIE)
+                            </h3>
+                            <span class="qualification__place">
+                                Global Indian International School
+                            </span>
+                            <span class="qualification__year">
+                                Predicted A* | Achieved 5 As at AS Level
+                            </span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                SAT Score
+                            </h3>
+                            <span class="qualification__place">
+                                College Board
+                            </span>
+                            <span class="qualification__year">
+                                1580 (Math: 790, English: 790)
+                            </span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                AP Scores
+                            </h3>
+                            <span class="qualification__place">
+                                Advanced Placement
+                            </span>
+                            <span class="qualification__year">
+                                Microeconomics (5) | Computer Science A (4)
+                            </span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                IELTS
+                            </h3>
+                            <span class="qualification__place">
+                                English Language Test
+                            </span>
+                            <span class="qualification__year">
+                                Score: 8.5
+                            </span>
+                        </div>
+                </div>
+                
+                <div class="qualification__content animate-on-scroll" data-animate="animate__fadeInUp">
+                    <h3 class="qualification__title">
+                        <i class="ri-trophy-line"></i> Awards & Recognition
+                    </h3>
+                        <div>
+                            <h3 class="qualification__name">
+                                1st Place - International Economics Essay
+                            </h3>
+                            <span class="qualification__place">
+                                BTDT Competition
+                            </span>
+                            <span class="qualification__year">
+                                International Level
+                            </span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                Best Debater & Overall Best Team
+                            </h3>
+                            <span class="qualification__place">
+                                TSL International Debate
+                            </span>
+                            <span class="qualification__year">
+                                International Level
+                            </span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                1st Place - National Mathematics Olympiad
+                            </h3>
+                            <span class="qualification__place">
+                                Trinidad & Tobago
+                            </span>
+                            <span class="qualification__year">
+                                National Level
+                            </span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                100% Merit Scholarship
+                            </h3>
+                            <span class="qualification__place">
+                                UPenn M&TSI Program
+                            </span>
+                            <span class="qualification__year">
+                                Full Scholarship Award
+                            </span>
+                        </div>
+                </div>
+            </div>
+            <img src="assets/img/shape-circle.svg" alt="qualification image" class="qualification__img">
+        </section>
+
+
+        <section class="achievement section" id="achievements">
+            <h2 class="section__title">Achievements & Certificates</h2>
+            <span class="section__subtitle">Highlights & Official Recognition</span>
+            <div class="achievement__container section__border">
+                <div class="achievement__col achievement__awards animate-on-scroll" data-animate="animate__lightSpeedInLeft">
+                <h3 class="achievement__coltitle"><i class="ri-trophy-line"></i> Major Achievements</h3>
+                <ul class="achievement__list">
+                    <li>
+                    <strong>International: </strong>
+                    <br>1st Place - International Economics Essay Competition (BTDT)
+                    <br>Best Debater & Overall Best Team - TSL International Debate
+                    <br>6th Place - COP27 Climate & Innovation Challenge (Youth Gamification Club) - Awarded 5000CHF
+                    </li>
+                    <li>
+                    <strong>National: </strong>
+                    <br>1st Place - Trinidad & Tobago National Mathematics Olympiad
+                    <br>1st Place - Girls Can Code App Competition (Team Leader)
+                    <br>1st Place - Waterloo Pascal Math Competition
+                    </li>
+                    <li>
+                    <strong>Scholarship:</strong>
+                    <br>Awarded 100% Merit Scholarship to UPenn M&T Summer Institute (M&TSI)
+                    </li>
+                    <li>
+                    <strong>Other:</strong>
+                    <br> Founder & President: Youth Gamification Club
+                    <br> Research Co-Author: E-Waste & Circular Economy
+                    <br> Research Intern: Cybersecurity Policy with USF
+                    </li>
+                </ul>
+                </div>
+                <div class="achievement__col achievement__certs animate-on-scroll" data-animate="animate__lightSpeedInRight">
+                <h3 class="achievement__coltitle"><i class="ri-award-line"></i> Certificates & News Articles</h3>
+                <div class="certificate__gallery">
+                    <a href="assets/img/coursera.webp" target="_blank"><img src="assets/img/coursera.webp" alt="Certificate 1"></a>
+                    <a href="assets/img/tata.webp" target="_blank"><img src="assets/img/tata.webp" alt="Certificate 2"></a>
+                    <a href="assets/img/Global-india-new.webp" target="_blank"><img src="assets/img/Global-india-new.webp" alt="Certificate 3"></a>
+                    <a href="assets/img/times-of-india-new.webp" target="_blank"><img src="assets/img/times-of-india-new.webp" alt="Certificate 4"></a>
+                </div>
+                </div>
+            </div>
+            <!-- <hr class="achievement__divider"> -->
+            </section>
+
+
+        
+        <!--==================== PROJECTS ====================-->
+        <!-- <section class="projects__section section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div class="container section__border">
+                <div class="projects__container swiper">
+                    <div class="swiper-wrapper">
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project1.jpg" alt="projects image" class="projects__img">
+
+                            <div>
+                                <span class="projects__subtitle">Tech/Environmental</span>
+                                <h1 class="projects__title">Youth Gamification Club Platform</h1>
+                                <p>Interactive environmental education games reaching 2,000+ students globally</p>
+                                <a href="https://www.instagram.com/youth_gamification_club/" target="_blank" class="projects__button">
+                                    View more <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project2.jpg" alt="projects image" class="projects__img">
+
+                            <div>
+                                <span class="projects__subtitle">Tech/Logistics</span>
+                                <h1 class="projects__title">Bus Tracking & Safety App</h1>
+                                <p>School bus management system with real-time tracking for 2,000+ students</p>
+                                <a href="#" class="projects__button">
+                                    View more <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project3.jpg" alt="projects image" class="projects__img">
+
+                            <div>
+                                <span class="projects__subtitle">Tech/AI</span>
+                                <h1 class="projects__title">Finalytics - AI Finance App</h1>
+                                <p>AI-powered personal finance management app developed under Oxford mentorship</p>
+                                <a href="#" class="projects__button">
+                                    View more <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project4.jpg" alt="projects image" class="projects__img">
+
+                            <div>
+                                <span class="projects__subtitle">Research/Policy</span>
+                                <h1 class="projects__title">E-Waste & Circular Economy Research</h1>
+                                <p>Academic research published in IJSRM, presented at 3 conferences</p>
+                                <a href="#" class="projects__button">
+                                    View more <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project5.jpg" alt="projects image" class="projects__img">
+
+                            <div>
+                                <span class="projects__subtitle">Research/Policy</span>
+                                <h1 class="projects__title">Cybersecurity Policy Paper</h1>
+                                <p>Policy research on digital arrest fraud prevention with USF</p>
+                                <a href="#" class="projects__button">
+                                    View more <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project6.jpg" alt="projects image" class="projects__img">
+
+                            <div>
+                                <span class="projects__subtitle">Cultural/Language</span>
+                                <h1 class="projects__title">Legends Beyond Borders</h1>
+                                <p>Blog translating Indian & Caribbean folktales into French</p>
+                                <a href="#" class="projects__button">
+                                    View more <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section> -->
+        <section class="projects section" id="projects">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">Most recent & major projects</span>
+        <div class="projects-timeline animate-on-scroll" data-animate="animate__lightSpeedInLeft">
+            <div class="project-card">
+            <div class="project-icon" style="background:#68b3e3"><i class="ri-gamepad-line"></i></div>
+            <div class="project-content">
+                <h3>Youth Gamification Club Platform</h3>
+                <p>Developed and led an international team for innovative games (Eco-Me, Eco-Earth, Recycling Apps) making environmental education accessible to 2,000+ students globally.<br>
+                <span>Domain: Environment, Gamification, Tech</span>
+                </p>
+                <a href="https://www.instagram.com/youth_gamification_club/" target="_blank" class="project-link">Learn More</a>
+            </div>
+            </div>
+            <div class="project-card">
+            <div class="project-icon" style="background:#fea06c"><i class="ri-bus-2-line"></i></div>
+            <div class="project-content">
+                <h3>Bus Tracking & Safety App</h3>
+                <p>Personal project: Designed a school bus management app with real-time tracking, attendance logging, and route optimization; piloted for 2,000+ students.<br>
+                <span>Domain: Logistics, App Development</span>
+                </p>
+                <!-- No live link for this one -->
+            </div>
+            </div>
+            <div class="project-card">
+            <div class="project-icon" style="background:#6fd67e"><i class="ri-robot-line"></i></div>
+            <div class="project-content">
+                <h3>Finalytics – AI Finance App</h3>
+                <p>Created an AI-powered personal finance app under Oxford mentorship as part of an advanced AI internship program.<br>
+                <span>Domain: AI, Finance, Mobile</span>
+                </p>
+            </div>
+            </div>
+            <div class="project-card">
+            <div class="project-icon" style="background:#ffb562"><i class="ri-recycle-line"></i></div>
+            <div class="project-content">
+                <h3>E-Waste & Circular Economy Research</h3>
+                <p>Co-authored academic research accepted to IJSRM and presented at 3 conferences; focused on regression of policy adoption in 14 nations.<br>
+                <span>Domain: Research, Policy</span>
+                </p>
+                <!-- <a href="#" class="project-link">Read Abstract</a> -->
+            </div>
+            </div>
+            <div class="project-card">
+            <div class="project-icon" style="background:#b793fa"><i class="ri-shield-user-line"></i></div>
+            <div class="project-content">
+                <h3>Cybersecurity & Digital Arrest Policy Paper</h3>
+                <p>Research intern at USF, analyzed ₹1935cr loss, interviewed 10 cybercrime victims, co-authored AI-based policy paper.<br>
+                <span>Domain: Cybersecurity, Policy</span>
+                </p>
+            </div>
+            </div>
+            <div class="project-card">
+            <div class="project-icon" style="background:#f88585"><i class="ri-book-2-line"></i></div>
+            <div class="project-content">
+                <h3>Legends Beyond Borders Blog</h3>
+                <p>Founded a blog translating Indian and Caribbean folktales into French for global cultural preservation.<br>
+                <span>Domain: Language, Culture, Blog</span>
+                </p>
+                <!-- <a href="#" class="project-link">See Blog</a> -->
+            </div>
+            </div>
+        </div>
+        </section>
+
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid section__border">
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-chat-3-line"></i> Talk to me
+                    </h3>
+
+                    <div class="contact__info">
+                        <div class="contact__data">
+                            <span class="contact__data-title">Email</span>
+                            <span class="contact__data-info">sirimeghanavadlamudi13@gmail.com</span>
+
+                            <a href="mailto:sirimeghanavadlamudi13@gmail.com" target="_blank" class="contact__Button">
+                                Write me <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__data">
+                            <span class="contact__data-title">WhatsApp</span>
+                            <span class="contact__data-info">+91 86397 65689</span>
+
+                            <a href="https://wa.me/918639765689" target="_blank" class="contact__Button">
+                                Write me <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__data">
+                            <span class="contact__data-title">LinkedIn</span>
+                            <span class="contact__data-info">Siri Vadlamudi</span>
+
+                            <a href="https://www.linkedin.com/in/siri-vadlamudi-583378316/?originalSubdomain=in" target="_blank" class="contact__Button">
+                                Connect <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-send-plane-line"></i> Write me Query
+                    </h3>
+
+                    <form id="contact-form" class="contact__form">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Name</label>
+                            <input 
+                                type="text" 
+                                name="user_name" 
+                                required 
+                                placeholder="Write your name" 
+                                class="contact__form-input" 
+                                id="contact-name"
+                            >
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Mail</label>
+                            <input 
+                                type="email" 
+                                name="user_email" 
+                                required 
+                                placeholder="Write your email" 
+                                class="contact__form-input" 
+                                id="contact-email"
+                            >
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact__form-tag">Project</label>
+                            <textarea 
+                                name="user_project" 
+                                required 
+                                placeholder="Write your project" 
+                                class="contact__form-input" 
+                                id="contact-project"
+                            ></textarea>
+                        </div>
+
+                        <p class="contact__message" id="contact-message"></p>
+
+                        <button type="submit" class="contact__button">
+                            Submit <i class="ri-arrow-right-up-line"></i>
+                        </button>
+                    </form>
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Siri Vadlamudi</h1>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+                <li>
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li>
+                    <a href="#projects" class="footer__link">Projects</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="https://www.linkedin.com/in/siri-vadlamudi-583378316/?originalSubdomain=in" target="_blank" class="footer__social-link">
+                    <i class="ri-linkedin-box-line"></i>
+                </a>
+
+                <a href="https://www.instagram.com/youth_gamification_club/" target="_blank" class="footer__social-link">
+                    <i class="ri-instagram-line"></i>
+                </a>
+
+                <a href="mailto:sirimeghanavadlamudi13@gmail.com" target="_blank" class="footer__social-link">
+                    <i class="ri-mail-line"></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; Copyright Siri Vadlamudi. All rights reserved
+            </span>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script> -->
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/main.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+  var observer = new IntersectionObserver(function(entries){
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const section = entry.target;
+        // Get desired Animate.css class from attribute
+        const animation = section.dataset.animate || "animate__fadeInUp";
+        section.classList.add("animate__animated", animation);
+        // Optionally add 'visible' for fading in via opacity
+        section.classList.add("visible");
+        observer.unobserve(section);
+      }
+    });
+  }, { threshold: 0.18 });
+
+  document.querySelectorAll('.animate-on-scroll').forEach(sec => {
+    observer.observe(sec);
+  });
+});
+
+    </script>
+</body>
+</html>
